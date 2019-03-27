@@ -5,8 +5,8 @@ in its most classic form:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Josh Krsek.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -86,6 +86,19 @@ def run_test_count_negatives():
     # TODO 2 (continued):  Add your 2 ADDITIONAL tests here:
     # -------------------------------------------------------------------------
 
+    # Test 6:
+    expected = 1
+    actual = count_negatives((8, 13, 7, -5))
+    print()
+    print('Test 6 expected:', expected)
+    print('       actual:  ', actual)
+
+    # Test 7:
+    expected = 1
+    actual = count_negatives((8, 13, 7, -5))
+    print()
+    print('Test 7 expected:', expected)
+    print('       actual:  ', actual)
 
 def count_negatives(seq):
     """
